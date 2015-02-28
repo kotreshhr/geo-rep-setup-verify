@@ -6,6 +6,7 @@ This script verifies whether geo-replication is properly setup or not.
 The script needs to be run on each node of both master and slave cluster
 nodes with respective arguments as given below.
 
+```sh
 python geo-rep-setup-verify <mastervol> <slavevol> <init_node>
 
        <mastervol> : master volume name
@@ -13,3 +14,4 @@ python geo-rep-setup-verify <mastervol> <slavevol> <init_node>
        <init_node> : Boolean
                      "1": For master node using which geo-rep session is created.
                      "0": For other master nodes and slave nodes.
+```
